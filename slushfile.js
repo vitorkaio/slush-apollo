@@ -73,7 +73,7 @@ gulp.task('default', function (done) {
     }, {
         name: 'userName',
         message: 'What is the github username?',
-        default: defaults.userName
+        default: defaults.authorName
     }, {
         type: 'confirm',
         name: 'moveon',

@@ -1,0 +1,36 @@
+{
+  "name": "<%= appName %>",
+  "description": "<%= appDescription %>",
+  "version": "<%= appVersion %>",
+  "homepage": "https://github.com/<%= userName %>/<%= appName %>",
+  "author": {
+    "name": "<%= authorName %>",
+    "email": "<%= authorEmail %>"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node ./src/app.js",
+    "dev": "nodemon --ext js,graphql --exec babel-node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/<%= userName %>/<%= appNameSlug %>"
+  },
+  "license": "MIT",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "rxjs": "^6.5.2",
+    "apollo-server": "^2.8.1",
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.0.0",
+    "faker": "^4.1.0",
+    "graphql": "^14.4.2",
+    "graphql-import": "^0.7.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.6.9"
+  }
+}

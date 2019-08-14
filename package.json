@@ -2,17 +2,17 @@
     "name": "slush-apollo",
     "description": "apollo basic server with node es6",
     "version": "0.1.0",
-    "homepage": "https://github.com/kaio/slush-apollo",
+    "homepage": "https://github.com/vitorkaio/slush-apollo",
     "author": {
         "name": "vitorkaio",
         "email": "vitorcaiodepaula@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/kaio/slush-apollo.git"
+        "url": "git://github.com/vitorkaio/slush-apollo.git"
     },
     "bugs": {
-        "url": "https://github.com/kaio/slush-apollo/issues"
+        "url": "https://github.com/vitorkaio/slush-apollo/issues"
     },
     "license": "MIT",
     "main": "slushfile.js",
